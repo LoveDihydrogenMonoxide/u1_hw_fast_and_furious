@@ -19,17 +19,21 @@ window.onload =  function(event) {
 
   // Do all of your work inside the window.onload function (in other words, here!)
 
-  // Part 1
+  document.querySelector("#main-title").innerHTML = "I'm Dom Toretto. <br/> Welcome Family.";
 
-  // Part 2
+  document.querySelector("body").style.backgroundImage = "url('https://images.pexels.com/photos/36717/amazing-animal-beautiful-beautifull.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260')";
+  document.querySelector("body").style.backgroundRepeat = 'no-repeat';
+  document.querySelector("body").style.backgroundSize = "cover";
+  document.querySelector("body").style.backgroundAttachment = "fixed";
 
-  // Part 3
+  document.querySelector("#favorite-things > li:nth-child(6)").remove(6);
 
-  // Part 4
+  document.getElementById("quote-title").getElementbyClass("special-title").style.fontSize = "2-rem";
 
-  // Part 5
+  document.querySelector("#past-races").firstChild.removeChild(4);
 
-  // Part 6
+  document.querySelector("#past-races").createElement('li').appendChild("li:nth-child(6)").innerHTML = "Nürburg";
 
-  // Part 7
+
 }
+
