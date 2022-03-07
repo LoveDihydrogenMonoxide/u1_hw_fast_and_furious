@@ -26,14 +26,20 @@ window.onload =  function(event) {
   document.querySelector("body").style.backgroundSize = "cover";
   document.querySelector("body").style.backgroundAttachment = "fixed";
 
-  document.querySelector("#favorite-things > li:nth-child(6)").remove(6);
+const newNode = document.createTextNode(" ");
+const element = docuemnt.getElementById("#favorite-places").children[0];
+element.replaceChild(newNode, element.appendChild[0]);
 
-  document.getElementById("quote-title").getElementbyClass("special-title").style.fontSize = "2-rem";
+  document.querySelector("#quote-title").style.fontSize = "2rem";
 
-  document.querySelector("#past-races").firstChild.removeChild(4);
 
-  document.querySelector("#past-races").createElement('li').appendChild("li:nth-child(6)").innerHTML = "Nürburg";
+  // document.querySelector("#past-races").appendChild(li: 5);
 
+// document.createElement('li');
+// const node = document.createTextNode(Nürburg)
+// querySelector("#past-races").getAttributeNode("li : 4)")
+  // document.querySelector("body > div.main > div:nth-child(9)").createElement('div') 
 
 }
 
+const .blog-Post = document.createElementId('div'). 
